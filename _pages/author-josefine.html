@@ -1,5 +1,5 @@
 ---
-title: "Jane"
+title: "josefine"
 layout: default
 permalink: "/author-josefine.html"
 ---
@@ -8,16 +8,16 @@ permalink: "/author-josefine.html"
     <div class="col-md-8">        
         <div class="row align-items-center mb-5">
             <div class="col-md-9">
-                <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.jane.twitter }}">Follow</a></span></h2>
-                <p><a href="{{ site.authors.jane.site }}">{{ site.authors.jane.site }}</a></p>
-                <p class="excerpt">{{ site.authors.jane.bio }}</p>
+                <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.josefine.twitter }}">Follow</a></span></h2>
+                <p><a href="{{ site.authors.josefine.site }}">{{ site.authors.josefine.site }}</a></p>
+                <p class="excerpt">{{ site.authors.josefine.bio }}</p>
             </div>
             <div class="col-md-3 text-right">
-                <img alt="{{ site.authors.jane.name }}" src="{{site.baseurl}}/{{ site.authors.jane.avatar }}" class="rounded-circle" height="100" width="100">
+                <img alt="{{ site.authors.josefine.name }}" src="{{site.baseurl}}/{{ site.authors.josefine.avatar }}" class="rounded-circle" height="100" width="100">
             </div>
         </div>
         <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
-            {% assign posts = site.posts | where:"author","jane" %}
+            {% assign posts = site.posts | where:"author","josefine" %}
             {% for post in posts %}
             {% include main-loop-card.html %}
             {% endfor %}
