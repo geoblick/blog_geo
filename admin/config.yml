@@ -16,10 +16,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "string", default: "post"}
+      - {label: "Author", name: "author", widget: "select", options: ["arthur", "josefine"]}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "select", options: ["Konsum & Ernährung", "Stadt- und Regionalentwicklung", "Wirtschaft & Tourismus", "Verkehr & Mobilität", "Natur & Umwelt"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Author", name: "author", widget: "select", options: ["arthur", "josefine"]}
-      - {label: "Categories", name: "categories", widget: "select", options: ["Konsum & Ernährung", "Stadt- und Regionalentwicklung", "Wirtschaft & Tourismus", "Verkehr & Mobilität", "Natur & Umwelt"]}
