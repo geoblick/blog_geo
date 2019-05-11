@@ -4,7 +4,7 @@ author: josefine
 title: Schon wieder ein nicer Artikel
 categories: Verkehr_&_Mobilität
 date: 2019-05-11T13:07:31.912Z
-tags: mobility bicycle sustainable sticky
+tags: mobility bicycle sustainable
 image: /assets/images/bicycle.jpeg
 ---
 # Hups, der neue Beitrag ging aber schnell
