@@ -2,9 +2,7 @@
 layout: post
 author: josefine
 title: We all wait for summer
-categories:
-  - Jekyll
-  - tutorial
+categories: Natur_&_Umwelt
 date: 2019-05-11T13:42:45.017Z
 tags: sticky featured
 image: assets/images/1.jpg
