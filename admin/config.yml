@@ -22,4 +22,4 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Author", name: "author", widget: "select", options: ["arthur", "josefine"]}
-      - {label: "Categories", name: "categories", widget: "select", options: ["Wirtschaft", "Thema", "Politik", "Cool"]}
+      - {label: "Categories", name: "categories", widget: "select", options: ["Konsum & Ernährung", "Stadt- und Regionalentwicklung", "Wirtschaft & Tourismus", "Verkehr & Mobilität", "Natur & Umwelt"]}
