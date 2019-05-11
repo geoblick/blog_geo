@@ -2,8 +2,7 @@
 layout: post
 author: arthur
 title: This is the fir test
-categories:
-  - Politik
+categories: Wirtschaft_&_Tourismus
 date: 2019-05-10T16:31:44.385Z
 tags: health environment
 image: assets/images/700862.jpg
